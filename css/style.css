@@ -1,0 +1,65 @@
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: OpenSans;
+}
+header
+
+main div h2{
+    border-right: 1px solid gray;
+    border-left: 1px solid gray
+}
+
+header h2{
+    padding: 2% 1%;
+    display: grid;
+}
+
+
+ 
+
+ul{
+    list-style-type: none;
+}
+
+header nav ul{
+    display: flex;
+    border: 1px solid gray;
+}
+
+header nav ul li{
+    border-right: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
